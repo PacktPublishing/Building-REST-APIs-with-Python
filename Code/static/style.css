@@ -1,0 +1,23 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+}
+
+#wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    padding: 5px;
+    height: 90px;
+    background-color: #109010;
+    color: #FFF;
+}
+
+#content {
+    flex: 1;
+    background-color: #FFF;
+    padding: 5px;
+}

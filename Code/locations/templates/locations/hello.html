@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Hello {{ name }}{% endblock %}
+{% block header %}
+  <h1>Hello {{ name }}
+    {% if name == 'Fred' %}, you're a winner!{% else %}, you have not won.{% endif %}
+  </h1>{% endblock %}
+{% block content %}
+<p>Today is the {% now "jS F Y" %}</p>
+<p>There are {{ name|length }} characters in your name</p>
+{% endblock %}
